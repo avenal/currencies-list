@@ -33,13 +33,7 @@ function buildUI(data) {
     p.id = key;
     p.className = "currency-item";
     var values = sortData(data[key]);
-    p.innerHTML =
-      '<span class="currency-item--primary">' +
-      key +
-      "</span>" +
-      '/<span class="currency-item--secondary">PLN</span>' +
-      " : " +
-      values[values.length - 1].value;
+    p.innerHTML = key + "/PLN : " + values[values.length - 1].value;
     currenciesContainer.appendChild(p);
   });
 

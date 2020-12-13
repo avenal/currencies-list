@@ -62,15 +62,6 @@
     transform: translateX(0);
 }
 
-.currency-item--primary {
-    color: #0A2472;
-    font-weight: 500;
-}
-
-.currency-item--secondary {
-    font-weight: 300;
-}
-
 .currency-item__detail {
     display: flex;
     flex-direction: column-reverse;
